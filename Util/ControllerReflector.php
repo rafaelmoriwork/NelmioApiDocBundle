@@ -20,7 +20,7 @@ use Symfony\Component\HttpKernel\Kernel;
  */
 class ControllerReflector
 {
-    private mixed $controllerNameParser;
+    private mixed $controllerNameParser = null;
     private array $controllers = [];
 
     public function __construct(private ContainerInterface $container)

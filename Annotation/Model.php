@@ -37,10 +37,10 @@ final class Model extends AbstractAnnotation
     /**
      * @var string[]
      */
-    public array $groups;
+    public array $groups = [];
 
     /**
      * @var mixed[]
      */
-    public array $options;
+    public array $options = [];
 }
